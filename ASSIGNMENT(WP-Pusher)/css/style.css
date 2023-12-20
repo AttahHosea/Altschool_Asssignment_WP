@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background: #f5f8fa;
+  font-family: Lato, sans-serif;
+}
+
+.navitem {
+  color: #1d2c3c;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+
+.srow {
+  border-radius: 6px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+  flex-shrink: 0;
+}
+
+.leftcol {
+  border-radius: 0px 6px 6px 0px;
+  background: #1179BF;
+  color: #ffffff;
+}
+
+.checktxt {
+  color: #1D2C3C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sline {
+  width: 100%;
+  height: 2px;
+  flex-shrink: 0;
+  background: #E0E6EA;
+}
+
+.ssline {
+  width: 100%;
+  height: 2px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.2005);
+}
+
+.btninfo {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.396px;
+  width: 100%;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #038E7D;
+}
+
+.basicinfo {
+  color: #1D2C3C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .srow2 {
+    width: 892px;
+  }
+}
+
+.sbtn {
+  border-radius: 6px;
+  border: 2px solid #646E7A;
+  width: 91px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgba(84, 139, 197, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: rgba(84, 139, 197, 1);
+}
+
+.circle2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(84, 139, 197, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: rgba(84, 139, 197, 1);;
+}
+
+.spara {
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.01px;
+  margin-bottom: 0px;
+}
+
+.h11 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+
+.p11 {
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.015px;
+}
+
+.p111{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.p1111{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.p11111{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.p12 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.008px;
+  font-style: italic;
+}
+
+.circle3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(185, 245, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: rgba(185, 245, 255, 1);
+}
+
+.p13 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.008px;
+  margin-bottom: 0px;
+}
+
+.slink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.p14 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.009px;
+}
+
+.simg {
+  margin-right: 10px;
+}
+
+.p15 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.008px;
+  margin-bottom: 0px;
+}
+
+.color2{
+  color: rgb(29, 44, 60);
+}
+
+.color3{
+  color: rgb(100, 110, 122);
+}
+
+label {
+  color: #1D2C3C;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sinput {
+  background: #EDEFF2;
+  width: 227px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  color: #646E7A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#card{
+  margin-top: 23px;
+  margin-bottom: 29px;
+  border-radius: 15px;
+}
+#input_p{
+  width: 512px;
+  height: 36px;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#card #Creditcard{
+  width: 390px;
+  height: 36px;
+  border: none
+}
+#card #Exp_date, #cvc{
+  width: 66px;
+  height: 36px;
+  border: none
+}
+#card input{
+  border: none;
+  background-color: rgba(237, 239, 242, 1);
+}
