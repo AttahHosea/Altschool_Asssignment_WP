@@ -65,11 +65,12 @@
                 <p class="basicinfo">Your Basic Information</p>
               </div>
               <form role="form" action="" id="form-1">
-                <label class="form-label me-md-5 mb-4"
-                    for="fname">First Name<input
+                <label class="form-label me-md-5 mb-4" for="fname"
+                  >First Name<input
                     id="fname"
                     name="fname"
                     class="form-control sinput"
+                    required
                     type="text"
                     placeholder="Jane" /></label
                 ><label class="form-label mb-4" for="lname"
@@ -77,6 +78,7 @@
                     id="lname"
                     name="lname"
                     class="form-control sinput"
+                    required
                     type="text"
                     placeholder="Doe" /></label
                 ><label class="form-label" for="emaill"
@@ -84,6 +86,7 @@
                     id="emaill"
                     name="emaill"
                     class="form-control sinput"
+                    required
                     type="email"
                     placeholder="janedoe@example.com"
                 /></label>
@@ -103,11 +106,24 @@
                       <input
                         type="number"
                         id="Creditcard"
+                        required
                         name="Creditcard"
                         placeholder="Card Number"
                       />
-                      <input type="text" placeholder="MM/YY" id="Exp_date" name="Exp_date"/>
-                      <input type="number" placeholder="CVC" id="cvc" name="CVC"/>
+                      <input
+                        type="text"
+                        placeholder="MM/YY"
+                        id="Exp_date"
+                        required
+                        name="Exp_date"
+                      />
+                      <input
+                        type="number"
+                        placeholder="CVC"
+                        id="cvc"
+                        required
+                        name="CVC"
+                      />
                     </p>
                   </div>
                 </form>
@@ -117,7 +133,9 @@
             <section
               class="d-flex flex-column justify-content-center align-items-center my-5 mx-4"
             >
-              <button class="btn btninfo" form="form-1 form-2" type="button">Buy WP Pusher</button>
+              <button class="btn btninfo" form="form-1 form-2" type="submit">
+                Buy WP Pusher
+              </button>
               <div class="d-flex flex-row align-items-center my-3">
                 <div class="circle2">?</div>
                 <p class="spara">
@@ -127,7 +145,11 @@
                   >
                 </p>
               </div>
-              <a href="#"><img alt="Link to stripe website" src="images/powered_by_stripe.svg" /></a>
+              <a href="#"
+                ><img
+                  alt="Link to stripe website"
+                  src="images/powered_by_stripe.svg"
+              /></a>
             </section>
           </div>
           <div class="col-md-4 leftcol">
@@ -166,7 +188,11 @@
                 the customer support is awesome!
               </p>
               <div class="d-flex align-items-center">
-                <img alt="Kirk Beard image" class="simg" src="images/Bitmap.svg" />
+                <img
+                  alt="Kirk Beard image"
+                  class="simg"
+                  src="images/Bitmap.svg"
+                />
                 <p class="p15">Kirk Beard</p>
               </div>
             </section>
