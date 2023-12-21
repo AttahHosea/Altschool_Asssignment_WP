@@ -64,19 +64,25 @@
                 <div class="circle">1</div>
                 <p class="basicinfo">Your Basic Information</p>
               </div>
-              <form>
+              <form action="" id="form-1">
                 <label class="form-label me-md-5 mb-4"
-                  >First Name<input
+                    for="fname">First Name<input
+                    id="fname"
+                    name="fname"
                     class="form-control sinput"
                     type="text"
                     placeholder="Jane" /></label
-                ><label class="form-label mb-4"
+                ><label class="form-label mb-4" for="lname"
                   >Last Name<input
+                    id="lname"
+                    name="lname"
                     class="form-control sinput"
                     type="text"
                     placeholder="Doe" /></label
-                ><label class="form-label"
+                ><label class="form-label" for="emaill"
                   >E-mail<input
+                    id="emaill"
+                    name="emaill"
                     class="form-control sinput"
                     type="email"
                     placeholder="janedoe@example.com"
@@ -90,17 +96,18 @@
                 <p class="basicinfo">Your Payment Information</p>
               </div>
               <div id="card">
-                <form action="">
+                <form action="" id="form-2">
                   <div>
                     <label for="Creditcard">Credit Card</label>
                     <p id="input_p">
                       <input
                         type="number"
                         id="Creditcard"
+                        name="Creditcard"
                         placeholder="Card Number"
                       />
-                      <input type="text" placeholder="MM/YY" id="Exp_date" />
-                      <input type="number" placeholder="CVC" id="cvc" />
+                      <input type="text" placeholder="MM/YY" id="Exp_date" name="Exp_date"/>
+                      <input type="number" placeholder="CVC" id="cvc" name="CVC"/>
                     </p>
                   </div>
                 </form>
@@ -110,7 +117,7 @@
             <section
               class="d-flex flex-column justify-content-center align-items-center my-5 mx-4"
             >
-              <button class="btn btninfo" type="button">Buy WP Pusher</button>
+              <button class="btn btninfo" form="form-1 form-2" type="button">Buy WP Pusher</button>
               <div class="d-flex flex-row align-items-center my-3">
                 <div class="circle2">?</div>
                 <p class="spara">
